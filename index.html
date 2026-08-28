@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f8fffc" />
+  <meta name="description" content="Rewoo Vision — Bangla-first, voice-driven visual assistance designed for privacy, simplicity, and measurable safety." />
+  <title>Rewoo Vision — Bangla-first Visual Assistant</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg" />
+  <link rel="preload" href="./css/styles.css" as="style" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="Rewoo Vision home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>Rewoo Vision</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#validation">Validation</a>
+        <a href="#roadmap">Roadmap</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="dot"></span> Bangla-first assistive AI</div>
+          <h1>See more.<br /><span>Ask naturally.</span><br />Stay in control.</h1>
+          <p class="hero-lede">A voice-driven visual assistant for blind and visually impaired people, designed around Bangla interaction, on-device intelligence, low-friction use, and measurable safety.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#how-it-works">Explore the product</a>
+            <a class="btn btn-secondary" href="#validation">See validation plan</a>
+            <div class="download-control">
+              <button class="btn btn-download download-toggle" type="button" aria-expanded="false" aria-controls="app-download-menu">
+                Download app <span aria-hidden="true">⌄</span>
+              </button>
+              <div class="download-menu" id="app-download-menu" hidden>
+                <a class="download-option" href="./downloads/RewooVision.apk" download>
+                  <span class="platform-icon" aria-hidden="true">A</span>
+                  <span><b>Android</b><small>Download APK</small></span>
+                </a>
+                <a class="download-option" href="./downloads/RewooVision.ipa" download>
+                  <span class="platform-icon" aria-hidden="true">i</span>
+                  <span><b>iOS</b><small>Download IPA</small></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-points" aria-label="Product highlights">
+            <span>Bangla-first</span><span>On-device AI</span><span>Voice-first</span><span>Privacy-minded</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="visual-glow"></div>
+          <div class="phone-shell" aria-label="Illustrative Rewoo Vision interface mockup">
+            <div class="phone-top"><span></span></div>
+            <div class="phone-screen">
+              <div class="camera-frame">
+                <img src="./assets/figures/hero-scene.svg" alt="Illustrative Rewoo Vision scene preview" />
+                <div class="focus focus-a"></div>
+                <div class="focus focus-b"></div>
+                <div class="vision-label">LIVE VISION</div>
+              </div>
+              <div class="voice-card">
+                <div class="voice-icon" aria-hidden="true">◉</div>
+                <div>
+                  <strong>“সামনে কী আছে?”</strong>
+                  <p>সামনে একটি দরজা, বাম পাশে চেয়ার।</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="floating-card float-one"><b>100%</b><span>offline-ready concept</span></div>
+          <div class="floating-card float-two"><b>5</b><span>MVP voice intents</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Product principles">
+      <div class="container trust-grid">
+        <div><strong>Voice-first</strong><span>Less visual navigation</span></div>
+        <div><strong>Local processing</strong><span>Reduced cloud dependency</span></div>
+        <div><strong>Concise answers</strong><span>Lower cognitive load</span></div>
+        <div><strong>Validation-first</strong><span>Targets before claims</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Product foundation</div>
+          <h2>Useful assistance without unnecessary friction.</h2>
+          <p>Rewoo Vision keeps command recognition deterministic and uses multimodal AI where visual reasoning actually adds value.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="icon-box">অ</div>
+            <h3>Bangla-first interaction</h3>
+            <p>Natural Bangla phrases can map to a small set of reliable intents, reducing the need to navigate complex menus.</p>
+            <span class="card-tag">Language layer</span>
+          </article>
+          <article class="feature-card reveal delay-1">
+            <div class="icon-box">◎</div>
+            <h3>Context-aware vision</h3>
+            <p>Different intents can use specialized prompts for front-scene description, object identification, text reading, and hazard awareness.</p>
+            <span class="card-tag">Multimodal AI</span>
+          </article>
+          <article class="feature-card reveal delay-2">
+            <div class="icon-box">⌁</div>
+            <h3>Offline-oriented design</h3>
+            <p>On-device processing reduces network dependency and keeps the privacy surface smaller than cloud-first image workflows.</p>
+            <span class="card-tag">Privacy</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon-box">⚡</div>
+            <h3>Fast intent routing</h3>
+            <p>VAD / keyword spotting can trigger a deterministic intent router before the camera and vision model are invoked.</p>
+            <span class="card-tag">Low friction</span>
+          </article>
+          <article class="feature-card reveal delay-1">
+            <div class="icon-box">?</div>
+            <h3>Calibrated uncertainty</h3>
+            <p>When evidence is unclear, the assistant should say so instead of inventing confidence or unsupported exact distance.</p>
+            <span class="card-tag">Trust</span>
+          </article>
+          <article class="feature-card reveal delay-2">
+            <div class="icon-box">↻</div>
+            <h3>Repeat & stop controls</h3>
+            <p>Core non-camera intents like repeat-last and stop-speech keep basic control immediate and predictable.</p>
+            <span class="card-tag">Accessible UX</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="how-it-works">
+      <div class="container">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <div class="eyebrow">How it works</div>
+            <h2>A short, predictable loop.</h2>
+          </div>
+          <p>Keep the always-on workload lightweight. Open the camera only when a visual intent needs it, answer briefly, then resume listening.</p>
+        </div>
+
+        <div class="flow-card reveal">
+          <div class="flow-step"><span>01</span><div class="flow-icon">🎙</div><h3>Listen</h3><p>Lightweight microphone stream detects a supported command.</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step"><span>02</span><div class="flow-icon">⌘</div><h3>Route</h3><p>Map the phrase to a deterministic intent such as DESCRIBE_FRONT.</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step"><span>03</span><div class="flow-icon">📷</div><h3>Capture</h3><p>Open the camera, capture an event frame, then close it.</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step"><span>04</span><div class="flow-icon">◈</div><h3>Understand</h3><p>Run visual reasoning with an intent-specific instruction.</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step"><span>05</span><div class="flow-icon">🔊</div><h3>Speak</h3><p>Return a concise Bangla response and resume the listener.</p></div>
+        </div>
+
+        <div class="command-layout">
+          <div class="command-copy reveal">
+            <div class="eyebrow">MVP command set</div>
+            <h3>Five intents are enough to prove the loop.</h3>
+            <p>The first milestone is reliability, not vocabulary size. Multiple natural phrases can map to the same safe intent.</p>
+            <div class="notice"><strong>Current scope:</strong> These commands define the initial product loop and will be evaluated against the validation criteria below.</div>
+          </div>
+          <div class="command-list reveal delay-1">
+            <button class="command-item active" type="button" data-command="front"><span>01</span><b>সামনে কী আছে</b><em>DESCRIBE_FRONT</em></button>
+            <button class="command-item" type="button" data-command="object"><span>02</span><b>এটা কী</b><em>IDENTIFY_OBJECT</em></button>
+            <button class="command-item" type="button" data-command="text"><span>03</span><b>লেখাটা পড়ে শোনাও</b><em>READ_TEXT</em></button>
+            <button class="command-item" type="button" data-command="repeat"><span>04</span><b>আবার বলো</b><em>REPEAT_LAST</em></button>
+            <button class="command-item" type="button" data-command="stop"><span>05</span><b>চুপ করো</b><em>STOP_TTS</em></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="comparison">
+      <div class="container comparison-grid">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Why this direction</div>
+          <h2>From controller-led access to Bangla voice.</h2>
+          <p>Rewoo Vision shifts visual assistance from controller-led interaction toward natural Bangla voice with a deterministic intent layer.</p>
+        </div>
+
+        <div class="compare-card reveal delay-1">
+          <div class="compare-head"><span>Interaction pattern</span><span>Primary trigger</span></div>
+          <div class="compare-row muted-row"><div><b>Controller-led flow</b><small>Controller → Camera → Vision model → Speech</small></div><strong>Controller</strong></div>
+          <div class="compare-row highlight-row"><div><b>Rewoo Vision</b><small>Bangla KWS → Intent router → Camera → Vision + TTS</small></div><strong>Bangla voice</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="validation">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Validation before claims</div>
+          <h2>Define the success criteria first.</h2>
+          <p>These numbers are proposed targets from the current project notes, not achieved results.</p>
+        </div>
+
+        <div class="metrics-grid">
+          <article class="metric-card reveal"><span>Command recall</span><strong>≥ 90%</strong><small>Target</small></article>
+          <article class="metric-card reveal delay-1"><span>False activation</span><strong>≤ 5%</strong><small>Target</small></article>
+          <article class="metric-card reveal delay-2"><span>Bangla response</span><strong>≥ 95%</strong><small>Target</small></article>
+          <article class="metric-card reveal"><span>Useful vision answer</span><strong>≥ 80%</strong><small>Human-rated target</small></article>
+          <article class="metric-card reveal delay-1"><span>Response start</span><strong>&lt; 8–10s</strong><small>Target</small></article>
+          <article class="metric-card reveal delay-2"><span>Continuous loop</span><strong>60 min</strong><small>No crash / stuck listener</small></article>
+        </div>
+
+        <div class="benchmark-panel reveal">
+          <div class="benchmark-figure">
+            <img src="./assets/figures/benchmark.svg" alt="Illustrative validation benchmark preview" />
+            <span>Evaluation framework preview</span>
+          </div>
+          <div class="benchmark-copy">
+            <div class="eyebrow">Benchmark plan</div>
+            <h3>Build a Bengali visual benchmark before fine-tuning.</h3>
+            <p>Curated cases can isolate whether the weak point is command spotting, visual reasoning, OCR, or language output.</p>
+            <div class="benchmark-tags"><span>Scene</span><span>Objects</span><span>Direction</span><span>Text / OCR</span><span>Hazards</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section safety-section">
+      <div class="container safety-grid">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Safety boundary</div>
+          <h2>Visual assistance, not autonomous navigation.</h2>
+          <p>A monocular vision-language system can miss obstacles, estimate depth poorly, hallucinate, or respond late. The product should preserve that boundary clearly.</p>
+        </div>
+        <div class="safety-list reveal delay-1">
+          <div class="safety-item positive"><span>✓</span><div><b>Appropriate positioning</b><p>Environmental awareness, scene description, object identification, text-reading support, and voice-first interaction.</p></div></div>
+          <div class="safety-item negative"><span>×</span><div><b>Avoid unsupported claims</b><p>No cane replacement, guaranteed obstacle detection, exact distance, or autonomous safe navigation.</p></div></div>
+          <div class="safety-item neutral"><span>!</span><div><b>Safer response behavior</b><p>Prioritize hazards, communicate uncertainty, avoid invented precision, and provide a clear fallback.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="roadmap">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="eyebrow">Roadmap</div>
+          <h2>Validate the loop in layers.</h2>
+          <p>Each phase removes one uncertainty before adding more complexity.</p>
+        </div>
+
+        <div class="roadmap-track reveal">
+          <article><span>01</span><h3>Baseline</h3><p>Camera + multimodal model + Bangla TTS works.</p></article>
+          <article><span>02</span><h3>Voice layer</h3><p>Five fixed intents with lightweight command spotting.</p></article>
+          <article><span>03</span><h3>Automatic capture</h3><p>Primary flow works without screen touch.</p></article>
+          <article><span>04</span><h3>Long-session test</h3><p>15 → 30 → 60 minute reliability checks.</p></article>
+          <article><span>05</span><h3>OCR + UX</h3><p>Bangla text testing and accessible interaction semantics.</p></article>
+          <article><span>06</span><h3>Evaluation</h3><p>Noise, lighting, devices, and controlled user testing.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta-card reveal">
+        <div>
+          <div class="eyebrow">Rewoo Vision</div>
+          <h2>Build trust through useful, measured assistance.</h2>
+          <p>Start with a disciplined assistive core. Expand only after the product survives real Bengali interaction and visual benchmarks.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="#top">Back to top</a>
+          <a class="btn btn-secondary" href="mailto:sakhawathosse912@gmail.com">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#top"><span class="brand-mark">R</span><span>Rewoo Vision</span></a>
+        <p>Bangla-first, voice-driven visual assistance.</p>
+      </div>
+      <div class="footer-contact">
+        <span>Dhaka, Bangladesh</span>
+        <a href="mailto:sakhawathosse912@gmail.com">sakhawathosse912@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
