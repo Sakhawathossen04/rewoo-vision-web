@@ -1,4 +1,4 @@
-# Rewoo Vision Website
+# Rewoo Vision Website.
 
 A lightweight, Vercel-ready static landing page for Rewoo Vision with a light responsive interface, Bangla-first product messaging, validation targets, safety positioning, and app download controls.
 
